@@ -21,9 +21,11 @@ public class HelloController {
     public String hello() {
 
         log.info(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>hello");
-        service.set("num1","10001");
-        service.set("msg1","hello service ");
+//        service.set("num1","10001");
+//        service.set("msg1","hello service ");
 
         return "hello ginga!";
     }
+
+
 }
