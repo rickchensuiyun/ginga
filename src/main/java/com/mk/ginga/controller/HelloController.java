@@ -18,11 +18,13 @@ public class HelloController {
     @RequestMapping("/hello")
     public String hello() {
 
-        log.info(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>hello");
-
-//        service.set("num1","10001");
-//        service.set("msg1","hello service ");
         return "hello ginga!";
+    }
+
+    @RequestMapping("/show")
+    public String show() {
+        service.showAllData();
+        return "show";
     }
 
 

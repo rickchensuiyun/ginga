@@ -2,5 +2,7 @@ package com.mk.ginga.service;
 
 public interface HelloService {
 
-    void set(String key ,String val);
+    void set(String key, String val);
+
+    void showAllData();
 }
